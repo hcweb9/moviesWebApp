@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/main.js" type="module" defer></script>
+    <title>Movie's Web</title>
+  </head>
+  <body>
+    <div class="layout">
+      <!--Head-->
+      <header class="header">
+        <div class="logo">
+          <div class="play"></div>
+        </div>
+        <h1>MyMovies</h1>
+      </header>
+      <!--Navigation Bar-->
+      <nav class="nav">
+        <ul>
+          <li><a href="#">Start</a></li>
+          <li><a href="#">Movies</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!--Main Content-->
+
+      <section id="content" class="content">
+        <!--Here will be the movies-->
+        <article class="movie-item">
+          <h3 class="title">The Conjuring (2013)</h3>
+          <p class="description">
+            A family is terrorized by a dark presence in their farmhouse, and
+            they must call upon paranormal investigators Ed and Lorraine Warren
+            to help them.
+          </p>
+
+          <button class="edit">Edit</button>
+          <button class="delete">Delete</button>
+        </article>
+      </section>
+
+      <!--Search bar-->
+      <aside class="side-bar">
+        <div class="search">
+          <h3 class="title">Search Movies</h3>
+          <form>
+            <input type="text" id="search_field" placeholder="Movie title..." />
+            <button id="search">Search</button>
+          </form>
+        </div>
+
+        <div class="add">
+          <h3 class="title">Add Movie</h3>
+          <form id="myForm">
+            <input type="text" id="title" placeholder="Title" />
+            <textarea id="description" placeholder="Description"></textarea>
+            <input type="submit" id="save" value="Save" />
+          </form>
+        </div>
+      </aside>
+
+      <!--Footer-->
+      <footer class="footer">
+        &copy; hcweb9 - Hernán Casaoliva - Github >>>
+        <a href="https://github.com/hcweb9" target="_blank"
+          >github.com/hcweb9</a
+        >
+      </footer>
+    </div>
+  </body>
+</html>
